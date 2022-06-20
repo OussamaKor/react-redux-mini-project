@@ -7,6 +7,6 @@ export const addUser = async(user, dispatch)=> {
         const res = await axios.post("http://localhost:3001/api/users",user);
         dispatch(successUser(res.data))
     } catch(error) {
-        dispatch(errorUser)
+        dispatch(errorUser())
     }
 }

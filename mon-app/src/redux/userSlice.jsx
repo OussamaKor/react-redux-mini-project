@@ -26,8 +26,8 @@ export const userSlice = createSlice({
 
         },
         errorUser: (state,action) =>{
-            state.userData.nom = action.payload.nom ;
-            state.userData.email = action.payload.email ;
+            // state.userData.nom = action.payload.nom ;
+            // state.userData.email = action.payload.email ;
 
         },
     },
